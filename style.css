@@ -429,13 +429,12 @@ color: #fff;
 
 /*-------------------------- section 7  start --megha --------------------------------*/
 .review-container {
-  padding: 30px 0;
+  padding: 50px 0;
   margin: auto;
 }
 .Reviewcontainer-head {
   text-align: center;
   padding-bottom: 40px;
-  line-height:5px;
 }
 .main-Reviews {
   display: grid;
@@ -456,13 +455,13 @@ color: #fff;
 }
 .Review-heading {
   padding: 0 15px;
-  line-height: 5px;
 }
 .Review-heading h3 {
   font-size: 16px;
 }
 .review-para {
   line-height: 25px;
+  margin-top: 15px;
 }
 .font-14 {
   font-size: 13px;
