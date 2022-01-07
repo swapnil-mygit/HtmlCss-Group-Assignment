@@ -16,9 +16,6 @@
 .bg-black {
   background-color: #26231f;
 }
-.blue {
-  background-color: #4352b5;
-}
 
 .black {
   color: #111;
@@ -61,9 +58,6 @@
 .width-33 {
   width: 33.33%;
 }
-.width-25 {
-  width: 25%;
-}
 .font-13 {
   font-size: 13px;
 }
@@ -82,8 +76,7 @@
 .text-center {
   text-align: center;
 }
-/* ============================================== */
-/* swapnil */
+/* ==================swapnil============================ */
 .contact-container {
   margin: auto;
   justify-content: center;
@@ -137,24 +130,12 @@
   margin: 18px 0 !important;
 }
 
-
-
 /*Popular courses(Raj)*/
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
-}
-.test {
-  background-color: red;
-}
-.content-box {
-  padding: 60px 180px;
-}
-.img-responsive {
-  width: 100%;
-  height: auto;
 }
 .txt-center {
   text-align: center;
@@ -306,124 +287,123 @@ a {
 }
 /*--------------------------End Course Text--------------------------*/
 
-
-
 /*-------------- section 3 start -----karan--------------------------- */
-.course_container{
+.course_container {
   margin: auto;
-  display:grid;
-  grid-template-columns: repeat(3,1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   padding: 60px 0;
 }
-.first_course{
+.first_course {
   border: 1px solid #dcdcdc;
   padding: 50px 20px;
 }
-.first_number{
+.first_number {
   border: 1px solid black;
-  border-radius:60%;
+  border-radius: 60%;
   border: none;
   padding: 15px;
-  background-color:#4352B5;
+  background-color: #4352b5;
   font-size: 20px;
   font-weight: bold;
 }
-.h3_para h3{
+.h3_para h3 {
   margin-top: 30px;
-  font-size:15px;
+  font-size: 15px;
   line-height: 15px;
 }
-.h3_para p{
-  font-size:12px;
+.h3_para p {
+  font-size: 12px;
 }
 
 /* section 3 end */
 /*-------------------------- section 4 start User Signup(Karan)------------------------*/
-.get-started-btn{
-background-color: #fff;
-color: #444;
-padding: 12px 18px;
-cursor: pointer;
-text-align: center;
-border-radius: 60px;
-border: none;
-outline: none;
+.get-started-btn {
+  background-color: #fff;
+  color: #444;
+  padding: 12px 18px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 60px;
+  border: none;
+  outline: none;
 }
-.get-started-btn:hover{
-transition: .2s;
-background-color: #39CD8F;
+.get-started-btn:hover {
+  transition: 0.2s;
+  background-color: #39cd8f;
 }
-.user-signup-container{
-width: 70%;
-margin: auto;
-padding: 60px 0;
-display: grid;
-grid-template-columns: repeat(2,1fr);
+.user-signup-container {
+  width: 70%;
+  margin: auto;
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.user-signup-container .usignup-left .heading h1{
-font-size: 24px;
-text-align: left;
-font-weight: bold;
-margin:0;
+.user-signup-container .usignup-left .heading h1 {
+  font-size: 24px;
+  text-align: left;
+  font-weight: bold;
+  margin: 0;
 }
-.features-container .feature-content-container{
-padding: 26px;
+.features-container .feature-content-container {
+  padding: 26px;
 }
-.feature-content-container .feature-content{
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 24px ;
+.feature-content-container .feature-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
 }
-.feature-content .logo{
-padding-right: 16px;
+.feature-content .logo {
+  padding-right: 16px;
 }
-.feature-content .logo i{
-color: #fff;
-background-color: #39CD8F;
-padding: 10px;
-border-radius: 50%;
+.feature-content .logo i {
+  color: #fff;
+  background-color: #39cd8f;
+  padding: 10px;
+  border-radius: 50%;
 }
-.feature-content .text h3{
-font-size: 16px;
+.feature-content .text h3 {
+  font-size: 16px;
 }
-.feature-content .text p{
-color: grey;
-font-size:13px ;
+.feature-content .text p {
+  color: grey;
+  font-size: 13px;
 }
-.user-signup-container .usignup-right{
-padding: 70px 30px;
-background-color: rgb(24, 22, 22);
-border-radius: 60%;
+.user-signup-container .usignup-right {
+  margin-left: 30px;
+  width: 400px;
+  background-color: rgb(24, 22, 22);
+  border-radius: 50%;
 }
-.user-signup-container .contact-form .input{
-margin-top: 10%;
-padding: 0 50px;
+.user-signup-container .contact-form .input {
+  margin-top: 10%;
+  padding: 0 50px;
 }
-.user-signup-container .contact-form .input input{
-width: 100%;
-outline: none;
-border-top: none;
-border-right: none;
-border-left: none;
-border-bottom: 1px solid rgb(129, 128, 128);
-margin-bottom: 18px;
-background-color: transparent;
-font-size: 13px;
-color: #fff;
-padding-left: 8px;
+.user-signup-container .contact-form .input input {
+  width: 100%;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgb(129, 128, 128);
+  margin-bottom: 18px;
+  background-color: transparent;
+  font-size: 13px;
+  color: #fff;
+  padding-left: 8px;
 }
-.get-started-div{
-margin-top: 18px;
-display: flex;
-justify-content: center;
-align-items: center;
+.get-started-div {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.user-signup-container .contact-form .text h2{
-text-align: center;
-margin-top: 50px;
-color: #fff;
+.user-signup-container .contact-form .text h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
 }
 /*-------------------------- section 4 End User Signup    karan--------------------------*/
 
@@ -439,7 +419,7 @@ color: #fff;
 .main-Reviews {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap:20px
+  grid-gap: 20px;
 }
 .Review {
   padding: 20px;
@@ -451,7 +431,8 @@ color: #fff;
 }
 .img-head img {
   border-radius: 50%;
-  width: 18%;
+  width: 40px;
+  height: 40px;
 }
 .Review-heading {
   padding: 0 15px;
@@ -471,3 +452,159 @@ color: #fff;
 }
 /*---------------------- section 7 end-----megha -----------------------*/
 
+/*===================Navigation===================*/
+.navigation-container {
+  width: 100%;
+  border-top: 5px solid #39cd8f;
+}
+.navigation-container .navigation {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 8px 0; */
+}
+.navigation .logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* padding: 6px 0; */
+}
+.navigation .logo a {
+  color: #333;
+}
+.navigation .nav-menu ul li {
+  display: inline-block;
+  padding: 14px 13px;
+  cursor: pointer;
+}
+.navigation .nav-menu ul li a {
+  color: rgb(97, 97, 97);
+  font-size: 13px;
+}
+#active {
+  color: white;
+}
+.navigation .nav-menu ul li:hover {
+  background-color: #26ca8d;
+}
+.navigation .nav-menu ul li a:hover,
+.box-1 a:hover,
+.box-2 a:hover {
+  transition: 0.1s ease;
+  color: white;
+}
+.navigation .contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation .contact-info i {
+  background-color: #39cd8f;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.navigation .contact-info p {
+  color: rgb(97, 97, 97);
+  font-size: 13px;
+}
+
+/*===================END Navigation===================*/
+
+/*===================Hero Section=======================*/
+.hero-container {
+  width: 100%;
+  min-height: 480px;
+  background: url("images/collage.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero-container .text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
+}
+.hero-container .text {
+  width: 70%;
+  margin: auto;
+  z-index: 99;
+  top: 50%;
+  color: #fff;
+}
+.hero-container .text h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.hero-container .text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.disc-more-btn {
+  padding: 10px 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.disc-more-btn:hover {
+  transition: 0.2s ease;
+  background-color: #39cd8f;
+  border-color: #39cd8f;
+  box-shadow: 1px 1px 20px rgba(1, 1, 1, 0.2);
+}
+.hero-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 1, 1, 0.4);
+  z-index: 1;
+}
+/*===================END Hero Section===================*/
+/* =================== Section 5th - Anam ======================== */
+/* Section 5th Anam */
+.margin-auto {
+  margin: auto;
+}
+.section-5 {
+  padding: 70px 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  margin-top: 30px;
+}
+.grid-container div {
+  background-color: white;
+}
+.grid-container img {
+  width: 100%;
+  height: 60%;
+}
+.heading {
+  text-align: left;
+  margin: 10px 0 10px 10px;
+}
+.icons {
+  padding: 10px 25px;
+  border-top: 1px solid rgb(231, 231, 231);
+}
+.icons i {
+  margin-right: 20px;
+}
+
+/* =================== Section 5th - Anam ======================== */
