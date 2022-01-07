@@ -136,3 +136,451 @@
   border: 1px solid white;
   margin: 18px 0 !important;
 }
+
+
+
+/*Popular courses(Raj)*/
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.test {
+  background-color: red;
+}
+.content-box {
+  padding: 60px 180px;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.txt-center {
+  text-align: center;
+}
+.custom-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 18px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 12px;
+}
+.custom-btn-primary {
+  background-color: #39cd8f;
+  color: #fff;
+}
+.custom-btn-primary:hover {
+  transition: 0.2s ease;
+  background-color: #31b17b;
+}
+.custom-btn-secondary {
+  background-color: #4151b3;
+  color: #fff;
+}
+.custom-btn-secondary:hover {
+  transition: 0.2s ease;
+  background-color: #2c3ca0;
+}
+#popular-courses {
+  width: 100%;
+  background-color: #fff;
+}
+.course-container {
+  width: 70%;
+  margin: auto;
+  padding: 60px 0;
+}
+.course-container .header {
+  margin-bottom: 38px;
+}
+.course-container .header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.course-container .header p {
+  color: #939293;
+  font-size: 16px;
+}
+.course-container .course-card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.course-card-container .course-card img {
+  width: 100%;
+}
+.course-card-container .course-card .card-meta {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+}
+.card-bk-img-one,
+.card-bk-img-two,
+.card-bk-img-three {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-bk-img-one {
+  background-image: url("images/summer-kids.jpg");
+}
+.card-bk-img-two {
+  background-image: url("images/business-management.jpg");
+}
+.card-bk-img-three {
+  background-image: url("images/social-media-management.jpg");
+}
+.course-card .card-meta .meta-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.card-meta .meta-info ul li {
+  display: inline;
+}
+.card-meta .meta-info ul {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 16px 16px;
+}
+.card-meta .meta-info ul li span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+.course-card .card-text {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px 18px 18px 18px;
+}
+.course-card .card-text h2 {
+  color: rgb(71, 71, 71);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.course-card .card-text p {
+  line-height: 1.6;
+  color: rgb(133, 133, 133);
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.course-card .card-text .text-top {
+  border-bottom: 1px solid rgba(93, 93, 93, 0.08);
+  margin-bottom: 10px;
+}
+.course-card .card-text .text-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text .text-bottom .author-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text .text-bottom .author-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.card-text .text-bottom .author-info span {
+  color: #111;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+/*--------------------------End Course Text--------------------------*/
+
+
+
+/*-------------- section 3 start -----karan--------------------------- */
+.course_container{
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+  padding: 60px 0;
+}
+.first_course{
+  border: 1px solid #dcdcdc;
+  padding: 50px 20px;
+}
+.first_number{
+  border: 1px solid black;
+  border-radius:60%;
+  border: none;
+  padding: 15px;
+  background-color:#4352B5;
+  font-size: 20px;
+  font-weight: bold;
+}
+.h3_para h3{
+  margin-top: 30px;
+  font-size:15px;
+  line-height: 15px;
+}
+.h3_para p{
+  font-size:12px;
+}
+
+/* section 3 end */
+/*-------------------------- section 4 start User Signup(Karan)------------------------*/
+.get-started-btn{
+background-color: #fff;
+color: #444;
+padding: 12px 18px;
+cursor: pointer;
+text-align: center;
+border-radius: 60px;
+border: none;
+outline: none;
+}
+.get-started-btn:hover{
+transition: .2s;
+background-color: #39CD8F;
+}
+.user-signup-container{
+width: 70%;
+margin: auto;
+padding: 60px 0;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.user-signup-container .usignup-left .heading h1{
+font-size: 24px;
+text-align: left;
+font-weight: bold;
+margin:0;
+}
+.features-container .feature-content-container{
+padding: 26px;
+}
+.feature-content-container .feature-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 24px ;
+}
+.feature-content .logo{
+padding-right: 16px;
+}
+.feature-content .logo i{
+color: #fff;
+background-color: #39CD8F;
+padding: 10px;
+border-radius: 50%;
+}
+.feature-content .text h3{
+font-size: 16px;
+}
+.feature-content .text p{
+color: grey;
+font-size:13px ;
+}
+.user-signup-container .usignup-right{
+padding: 70px 30px;
+background-color: rgb(24, 22, 22);
+border-radius: 60%;
+}
+.user-signup-container .contact-form .input{
+margin-top: 10%;
+padding: 0 50px;
+}
+.user-signup-container .contact-form .input input{
+width: 100%;
+outline: none;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: 1px solid rgb(129, 128, 128);
+margin-bottom: 18px;
+background-color: transparent;
+font-size: 13px;
+color: #fff;
+padding-left: 8px;
+}
+.get-started-div{
+margin-top: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.user-signup-container .contact-form .text h2{
+text-align: center;
+margin-top: 50px;
+color: #fff;
+}
+/*-------------------------- section 4 End User Signup    karan--------------------------*/
+
+/*-------------------------- section 7  start --megha --------------------------------*/
+.review-container {
+  padding: 50px 0;
+  margin: auto;
+}
+.Reviewcontainer-head {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.main-Reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px
+}
+.Review {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.img-head {
+  display: flex;
+  align-items: center;
+}
+.img-head img {
+  border-radius: 50%;
+  width: 18%;
+}
+.Review-heading {
+  padding: 0 15px;
+}
+.Review-heading h3 {
+  font-size: 16px;
+}
+.review-para {
+  line-height: 25px;
+  margin-top: 15px;
+}
+.font-14 {
+  font-size: 13px;
+}
+.star {
+  color: #4352b5;
+}
+/*---------------------- section 7 end-----megha -----------------------*/
+
+
+/*===================Navigation===================*/
+.navigation-container{
+  width: 100%;
+  border-top: 5px solid #39CD8F;
+}
+.navigation-container .navigation{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+.navigation .logo h1{
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 6px 0;
+}
+.navigation .logo a{
+  color: #333;
+}
+.navigation .nav-menu ul li{
+  display: inline-block;
+  padding: 6px 8px;
+}
+.navigation .nav-menu ul li a{
+  color: rgb(97, 97, 97);
+  font-size: 15px;
+}
+.navigation .nav-menu ul li a:hover{
+  transition: .1s ease;
+  color: #39CD8F;
+}
+.navigation .contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation .contact-info i{
+  background-color: #39CD8F;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.navigation .contact-info p{
+  color: rgb(97, 97, 97);
+  font-size: 15px;
+}
+/*===================END Navigation===================*/
+
+/*===================Hero Section=======================*/
+.hero-container{
+  width: 100%;
+  min-height: 480px;
+  background: url("images/collage.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero-container .text-content{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 130px;
+}
+.hero-container .text{
+  width: 70%;
+  margin: auto;
+  z-index: 99;
+  top: 50%;
+  color: #fff;
+}
+.hero-container .text h1{
+font-size: 32px;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.hero-container .text p{
+font-size: 14px;
+margin-bottom: 20px;
+line-height: 26px;
+}
+.disc-more-btn{
+padding: 10px 18px;
+border: none;
+outline: none;
+background-color: transparent;
+border: 1px solid #fff;
+color: #fff;
+cursor: pointer;
+border-radius: 20px;
+}
+.disc-more-btn:hover{
+transition: .2s ease;
+background-color: #39CD8F;
+border-color: #39CD8F;
+box-shadow: 1px 1px 20px rgba(1,1,1,.2);
+}
+.hero-container .overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(1,1,1,.4);
+z-index: 1;
+}
+/*===================END Hero Section===================*/
